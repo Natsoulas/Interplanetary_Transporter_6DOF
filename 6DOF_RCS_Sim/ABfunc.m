@@ -1,5 +1,6 @@
 function [A,B] = ABfunc(a,e,I,omega,Omega)
 %%gimmee the thiele innesssss
+%%got from Cornell University, Prof. Savransky's mae 6720 slides/notes
 A = [a.*(cos(Omega).*cos(omega) - sin(Omega).*cos(I).*sin(omega));...
      a.*(sin(Omega).*cos(omega) + cos(Omega).*cos(I).*sin(omega));...
      a.*sin(I).*sin(omega)];
