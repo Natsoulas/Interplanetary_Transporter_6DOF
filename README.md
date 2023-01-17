@@ -6,4 +6,6 @@ The main file for user interface is the Control_Loop_ode45_Orbit.m file which ta
 
 However, anyone can set up this simulation with any example scenario desired. Just be careful to set up IC's right, tune the controllers, optimizer, and signal modulator, and add any celestial bodies of interest by duplicating functions of either earth or mars and replacing their keplerian elements with the desired body's keplerian elements.
 
-Disclaimer: I did not develop/derive these lyapunov stable nonlinear control laws or this implementation of Simplex optimization method, some nice folks from CU Boulder and Matlab file exchange did :).
+Disclaimer: I did not develop/derive these lyapunov stable nonlinear control laws or this Genetic Algorithm augmentation to the Simplex optimization method, some nice folks from CU Boulder and Matlab file exchange did :). I simply customized, hookedup, and tuned all these to fit my project. 
+
+This is a halal (non-sensitive and okayed for external sharing) version of a previous internship project of mine. I moved it over and rewrote code really quickly and did not tune it so I apologize if it is not easy to set up for your own use.
